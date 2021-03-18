@@ -1,0 +1,8 @@
+frase = str(input('Digite uma frase qualquer:')).strip()
+FRASE = frase.upper()
+letraA = FRASE.count('A')
+ordem = FRASE.find('A')
+#print('A letra A aparece {} vezes na frase.'.format(frase.count('a')))
+print('A frase {} tem {} letras A'.format(frase, letraA))
+print('A primeira vez que a letra A aparece é na posição {}'.format(FRASE.find('A')))
+print('E a última vez em que aparece é na posição {}.'.format(FRASE.rfind('A')))

@@ -112,3 +112,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+pacote download/lista-exercicios/60for.py
+pacote download/lista-exercicios/__init__.py
+pacote download/lista-exercicios/ex021.mp3
